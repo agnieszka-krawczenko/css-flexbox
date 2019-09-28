@@ -139,6 +139,11 @@ nav {
 
 article{
     flex: 0 1 32%;
+    transition: flex-basics 0.2s linear;
+}
+
+article.stack{
+    flex: 0 1 100%;
 }
 
 }
